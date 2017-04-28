@@ -43,10 +43,10 @@ public class JFrameDemo extends JFrame{
 			public void actionPerformed(ActionEvent e) {
 				contador++;
 				etiqueta.setText(MENSAJE + contador);
-				long suma = 0;
+				/*long suma = 0;
 				for(long i=0; i< 100000000000l; i++) {
 					suma+=i;
-				}
+				}*/
 			}
 		});
 		panel.add(boton);
